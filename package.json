@@ -1,16 +1,16 @@
 {
-  "name": "@economist/component-tq-html",
+  "name": "@economist/component-win-html",
   "version": "1.0.0",
-  "description": "The TQ HTML wrapper",
+  "description": "The World in HTML wrapper",
   "author": "The Economist (http://economist.com)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/the-economist-editorial/component-tq-html.git"
+    "url": "git+ssh://git@github.com/the-economist-editorial/component-win-html.git"
   },
-  "homepage": "https://github.com/the-economist-editorial/component-tq-html/wiki",
+  "homepage": "https://github.com/the-economist-editorial/component-win-html/wiki",
   "bugs": {
-    "url": "https://github.com/the-economist-editorial/component-tq-html/issues"
+    "url": "https://github.com/the-economist-editorial/component-win-html/issues"
   },
   "main": "index.js",
   "files": [
@@ -71,7 +71,7 @@
   },
   "dependencies": {
     "@economist/component-articlestore": "^2.0.0",
-    "@economist/component-tq-app": "^1.0.0",
+    "@economist/component-win-app": "^1.0.0",
     "react": "^0.13.3"
   },
   "devDependencies": {

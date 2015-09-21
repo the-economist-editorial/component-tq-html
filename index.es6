@@ -1,9 +1,9 @@
 import React from 'react';
-import TQApp from '@economist/component-tq-app';
+import TQApp from '@economist/component-win-app';
 import ArticleStore from '@economist/component-articlestore';
 
 const articleStore = new ArticleStore('/content');
-export default class TQHTML extends React.Component {
+export default class WINHTML extends React.Component {
 
   static get propTypes() {
     return {

@@ -1,5 +1,5 @@
 import React from 'react';
-import TQHTML from './index.es6';
+import WINHTML from './index.es6';
 export default (
-  <TQHTML path="/404/" />
+  <WINHTML path="/404/" />
 );
