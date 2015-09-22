@@ -1,5 +1,8 @@
 import React from 'react';
-import WINHTML from './index.es6';
+
+// TODO: Without a postfix of /index.es6 there is a crash.
+import HtmlDocument from './index.es6';
+
 export default (
-  <WINHTML path="/404/" />
+  <HtmlDocument path="/404/" />
 );
