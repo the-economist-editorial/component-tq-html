@@ -1,9 +1,12 @@
 import React from 'react';
-import TQApp from '@economist/component-win-app';
+
+import WinApp from '@economist/component-win-app/index.es6';
+
 import ArticleStore from '@economist/component-articlestore';
 
 const articleStore = new ArticleStore('/content');
-export default class WINHTML extends React.Component {
+
+export default class HtmlDocument extends React.Component {
 
   static get propTypes() {
     return {
@@ -90,7 +93,7 @@ export default class WINHTML extends React.Component {
           {this.renderInlineScripts()}
         </head>
         <body data-id={this.pageDataID()} >
-          <TQApp path={this.props.path} />
+          <WinApp path={this.props.path} />
         </body>
       </html>
     );
