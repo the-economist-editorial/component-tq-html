@@ -1,6 +1,6 @@
 import React from 'react';
 
-import WinApp from '@economist/component-win-app/index.es6';
+import WinApp from '@economist/component-win-app';
 
 import ArticleStore from '@economist/component-articlestore';
 

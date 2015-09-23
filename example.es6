@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HtmlDocument from './index.es6';
+import HtmlDocument from '.';
 
 export default (
   <HtmlDocument path="/404/" />
