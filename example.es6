@@ -1,5 +1,7 @@
 import React from 'react';
-import WINHTML from './index.es6';
+
+import HtmlDocument from '.';
+
 export default (
-  <WINHTML path="/404/" />
+  <HtmlDocument path="/404/" />
 );
